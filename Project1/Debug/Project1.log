@@ -1,0 +1,14 @@
+﻿Build started 01-06-2018 11:47:59.
+     1>Project "C:\Workspace\Summer System Coourse Pre\Summer\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\VC\bin\CL.exe /c /I"C:\Workspace\Summer System Coourse Pre\Summer\dll_1\dll_1" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         D:\Program Files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Workspace\Summer System Coourse Pre\Summer\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Workspace\Summer System Coourse Pre\Summer\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Workspace\Summer System Coourse Pre\Summer\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Source.obj
+     1>Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static int __cdecl NameAge::Functions::get_age(char *)" (__imp_?get_age@Functions@NameAge@@SAHPAD@Z) referenced in function _main
+     1>C:\Workspace\Summer System Coourse Pre\Summer\Project1\Debug\Project1.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Workspace\Summer System Coourse Pre\Summer\Project1\Project1\Project1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.64
